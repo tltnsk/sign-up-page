@@ -33,7 +33,6 @@ html {
     background: rgba(255, 255, 255, 0.15);
 }
 
-
 .intro {
     margin-top: 100px;
     font-size: 24px;
@@ -71,6 +70,21 @@ input {
 	border-radius: .2em .2em 0 0;
 	padding: .4em;
     background-color: transparent;
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.error-message {
+    font-size: 0.8rem;
+    color: red;
+    height: 1em;
+    margin-top: 0.2rem;
 }
  
 a {
