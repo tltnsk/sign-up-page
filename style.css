@@ -1,11 +1,11 @@
 * {
     background-color: rgb(208, 106, 208);
+    font-family: "Rubik", sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 100px;
 }
 
